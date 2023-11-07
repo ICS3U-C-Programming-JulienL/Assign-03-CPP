@@ -28,7 +28,7 @@ int main() {
             " is wrong! There are 26 letters in the alphabet!";
         }
         // get the user character for the alphabet
-        std::cout << "\nChose a word, and pick a character out of it.";
+        std::cout << "\nChoose a word, and pick a character out of it.";
         std::cout << "Enter it in the program and see if it is a vowel or not:";
         std::cin >> alphabetCharacter;
 
@@ -53,7 +53,7 @@ int main() {
 
              // if there is more than 1 vowel in their word, y is a consonant
              if (wordIncludeOtherVowels == "yes") {
-                 std::cout << alphabetCharacter << " is a consonant\n";
+                 std::cout << "Usually, " << alphabetCharacter << " is a consonant\n";
              } else if (wordIncludeOtherVowels == "no") {
                  // if there is 1 vowel in their word, y is a vowel
                  std::cout << alphabetCharacter << " is a vowel\n";
