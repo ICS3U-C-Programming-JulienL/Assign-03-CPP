@@ -2,7 +2,7 @@
 // .
 // Created by: Julien Lamoureux
 // Date: November 7, 2023
-// This program program shows whether a letter is a vowel or consonant
+// This program shows whether a letter is a vowel or consonant
 
 #include <iostream>
 
@@ -16,7 +16,7 @@ int main() {
     std::cin >> alphabetGuessString;
 
     try {
-        // convert  the user number to an integer
+        // convert  the alphabet guess to an integer
         alphabetGuessInt = std::stoi(alphabetGuessString);
 
         // if the user guessed 26, then tell them they were right
@@ -53,7 +53,8 @@ int main() {
 
              // if there is more than 1 vowel in their word, y is a consonant
              if (wordIncludeOtherVowels == "yes") {
-                 std::cout << "Usually, " << alphabetCharacter << " is a consonant\n";
+                 std::cout << "Usually, "
+                 << alphabetCharacter << " is a consonant\n";
              } else if (wordIncludeOtherVowels == "no") {
                  // if there is 1 vowel in their word, y is a vowel
                  std::cout << alphabetCharacter << " is a vowel\n";
